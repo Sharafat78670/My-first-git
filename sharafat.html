@@ -4,109 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Style</title>
-    <style>
-        /* *{
-            margin: 5px;
-            background-color: rgb(241, 214, 214); */
-        
-        header{
-            padding: 30px;
-            background-color: darkorange;
-            text-align: center;
-            font-size: 40px;
-            width: 100%;
-        }
-        footer{
-            padding: 20px;
-            background-color: rgb(16, 16, 4);
-            color: azure;
-            text-align: center;
-            width: 100%;
-        }
-        ul{
-            list-style-type: none;
-            margin: 0%;
-            padding:20px ;
-            background-color: rgb(232, 201, 121);
-            overflow: hidden;
-           position:relative;
-            width: 100%;
-          
-        }
-        li{
-            display: inline;
-           padding: 25px;
-           width: 100%;
-           
-        }
-        li.a{
-            color: azure;
-          
-        }
-        div{
-            border-radius: 10px;
-            box-shadow: 5px 5px 5px ;
-            text-align:justify;
-        }
-        .bold{
-            color: brown;
-            background-color: rgb(128, 234, 234);
-            border: 4px solid tomato;
-            margin: 10px 0px;
-            padding: 20px;
-            width: 50%;
-            
-        }
-       
-
-        
-
-        .hello{
-            color: rgb(58, 79, 217);
-            background-color: rgb(211, 196, 100);
-            border: 4px solid rgb(27, 24, 132);
-            margin: 10px 0px;
-            padding: 20px;
-            width: 50%;
-        }
-        .al{
-            margin-left: 50%;     
-        }
-        .hi{
-            font-size: xx-large;
-            font-weight: 800;
-            color: rgb(31, 25, 153);
-            background-color: rgb(211, 196, 100);
-        }
-        #l{
-            font-size: xx-large;
-            font-weight: 800;
-            color: tomato;
-            background-color: rgb(128, 234, 234);
-        }
-        img{
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 5px solid tomato;   
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>WelCome Everyone  !</header>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li style="float: left;"><a class="active" href="#home">Home</a></li>
+        <li><a class="active1"  href="#">Join Us</a></li>
+        <li><a href="#">Experienc</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Educatione</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Bloc</a></li>
-        <li><a href="#">Content</a></li>
-    </ul>
-    <marquee direction="right"><h2 style="color: rgb(72, 0, 255) ;font-size: 50px;text-align: center;">I am Sharafat Karim. </h2></marquee>
+      </ul>
+    <marquee direction="right"><h2 style="color: rgb(72, 0, 255) ;font-size: 50px;text-align: center;display: inline-grid;">Sharafat Karim.101 </h2></marquee>
 
    <img src="image/sk.png" alt="Sharafat Karim">
+   <br>
+   <br><br>
    
     <div class="bold">
         <span id="l">L</span>orem ipsum dolor sit, amet consectetur adipisicing elit. Quo beatae, natus dolores unde ab cum facilis dolorum, illum voluptatum pariatur enim minima nulla at laboriosam omnis corporis expedita? Nesciunt, reiciendis?

@@ -1,0 +1,134 @@
+body{
+    /* background-image: url(cover-5.png); */
+    background-color: aquamarine;
+    background-size:cover;
+    background-position: center;
+
+}
+
+/* .header {
+    background-color:#FDBE33 ;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+} */
+/* Home menu */
+.active {
+  background-color: #FDBE33;
+  text-decoration: unset;
+  border-radius: 10px;
+}
+/* Join menu */
+.active1 {
+  background-color: #FDBE33;
+  text-decoration: unset;
+  border-radius: 30px;
+}
+
+header{
+    padding: 30px;
+    margin-top: 0;
+    background-color: darkorange;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+footer{
+    padding: 20px;
+    background-color: rgb(16, 16, 4);
+    color: azure;
+    text-align: center;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+   margin-top: 0;
+    padding: 20px;
+    overflow:hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+  }
+
+  li {
+    float: right;
+    text-decoration: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 20px;
+  }
+
+  li a:hover:not(.active,.active1) {
+    color: #FDBE33;
+    text-decoration: unset;
+  }
+
+  li a:hover {
+    text-decoration: unset;
+    color: #2F4F4F;
+  }
+  li.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+div{
+    border-radius: 0px 20px 0px 0px;
+    box-shadow: 5px 5px 5px ;
+    text-align:justify;
+}
+.bold{
+    color: brown;
+    background-color: rgb(128, 234, 234);
+    border: 4px solid tomato;
+    margin: 10px 0px;
+    padding: 40px;
+    width: 50%;
+    
+}
+
+
+
+
+.hello{
+    color: rgb(58, 79, 217);
+    background-color: rgb(211, 196, 100);
+    border: 4px solid rgb(27, 24, 132);
+    margin: 10px 0px;
+    padding: 40px;
+    width: 50%;
+}
+.al{
+    margin-left: 50%;     
+}
+.hi{
+    font-size: xx-large;
+    font-weight: 800;
+    color: rgb(31, 25, 153);
+    background-color: rgb(211, 196, 100);
+}
+#l{
+    font-size: xx-large;
+    font-weight: 800;
+    color: tomato;
+    background-color: rgb(128, 234, 234);
+}
+img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px solid tomato;  
+    border-bottom:15px solid #201705; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
